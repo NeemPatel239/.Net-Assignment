@@ -10,6 +10,7 @@ namespace AssignmentMusic.Models
     {
         public Company()
         {
+            ID = 0;
             CompanyName = "";
             WebSite = "abc.com";
             LastUpdate = DateTime.MinValue;
@@ -18,10 +19,8 @@ namespace AssignmentMusic.Models
         public int ID { get; set; }
         public String CompanyName { get; set; }
         public String WebSite { get; set; }
-
-        public ICollection<MusicProducts> ProductList { get; set; }
-
+        public virtual ICollection<MusicProducts> ProductList { get; set; }
         public DateTime LastUpdate { get; set; }
-
+            
     }
 }

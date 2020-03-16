@@ -46,7 +46,6 @@ C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Debug\netco
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Debug\netcoreapp3.1\AssignmentMusic.csprojAssemblyReference.cache
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Debug\netcoreapp3.1\staticwebassets\AssignmentMusic.StaticWebAssets.Manifest.cache
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Debug\netcoreapp3.1\staticwebassets\AssignmentMusic.StaticWebAssets.xml
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Debug\netcoreapp3.1\AssignmentMusic.RazorAssemblyInfo.cache
@@ -167,8 +166,6 @@ C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Debug\netco
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Debug\netcoreapp3.1\AssignmentMusic.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Debug\netcoreapp3.1\AssignmentMusic.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Debug\netcoreapp3.1\AssignmentMusic.Views.pdb
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Debug\netcoreapp3.1\AssignmentMusic.dll
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Debug\netcoreapp3.1\AssignmentMusic.pdb
@@ -182,3 +179,6 @@ C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Debug\netco
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Debug\netcoreapp3.1\Razor\Views\Companies\Details.cshtml.g.cs
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Debug\netcoreapp3.1\Razor\Views\Companies\Edit.cshtml.g.cs
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Debug\netcoreapp3.1\Razor\Views\Companies\Index.cshtml.g.cs
+C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Debug\netcoreapp3.1\AssignmentMusic.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Debug\netcoreapp3.1\AssignmentMusic.MvcApplicationPartsAssemblyInfo.cache

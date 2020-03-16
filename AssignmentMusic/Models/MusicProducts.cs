@@ -11,7 +11,8 @@ namespace AssignmentMusic.Models
     {
         public MusicProducts()
         {
-
+            CompanyID = 0;
+            ProductId = 0;
             ProductName = "";
             ReleasedDate = DateTime.Now;
             Model = null;
@@ -24,5 +25,6 @@ namespace AssignmentMusic.Models
         public String Model { get; set; }
         public int Price { get; set; }
         public DateTime ReleasedDate { get; set; }
+        public virtual Company Company { get; set; }
     }
 }

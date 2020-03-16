@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using AssignmentMusic.Data;
 using AssignmentMusic.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AssignmentMusic.Controllers
 {
+    [Authorize]
     public class CompaniesController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -18,13 +20,13 @@ namespace AssignmentMusic.Controllers
         {
             _context = context;
         }
-
+        [AllowAnonymous]
         // GET: Companies
         public async Task<IActionResult> Index()
         {
             return View(await _context.Company.ToListAsync());
         }
-
+        [AllowAnonymous]
         // GET: Companies/Details/5
         public async Task<IActionResult> Details(int? id)
         {
