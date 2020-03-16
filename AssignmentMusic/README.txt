@@ -32,4 +32,9 @@ Create, Edit, or Delete links                                                   
 using your existing Ctrl-Alt-PC keys. Store all API Keys in your appsettings.json file rather
 than inside your C# code. ***If you are able to publish your site to Azure, you MUST also
 add the Azure redirect url to the Google Console or your Google login will only work
-when running locally.***                                                          "done"                                  
+when running locally.***                                                          "done"     
+
+
+azure : ---- >>>  https://assignmentmusic20200223035726.azurewebsites.net 
+
+                            
