@@ -1,2 +1,2 @@
 # .Net-Assignment
-# assignment 2 part 1 completed for user authentication and access after login.
+# assignment 2 part 2 completed for Unit testing project and testing class for index and details.
