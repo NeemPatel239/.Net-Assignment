@@ -183,3 +183,14 @@ C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Release\net
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Release\netcoreapp3.1\AssignmentMusic.dll
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\obj\Release\netcoreapp3.1\AssignmentMusic.pdb
 C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Release\netcoreapp3.1\AutoMapper.dll
+C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Release\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Release\netcoreapp3.1\System.Web.Http.dll
+C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Release\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Release\netcoreapp3.1\protobuf-net.dll
+C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Release\netcoreapp3.1\ServiceStack.Text.dll
+C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Release\netcoreapp3.1\Unipluss.Sign.Client.Common.dll
+C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Release\netcoreapp3.1\Unipluss.Sign.Client.dll
+C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Release\netcoreapp3.1\Unipluss.Sign.Common.Rest.dll
+C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Release\netcoreapp3.1\Unipluss.Sign.Common.Validation.dll
+C:\Users\NEEM PATEL\source\repos\AssignmentMusic\AssignmentMusic\bin\Release\netcoreapp3.1\Unipluss.Sign.ExternalContract.dll

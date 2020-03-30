@@ -20,11 +20,13 @@ namespace AssignmentMusic.Controllers
         {
             _context = context;
         }
+
         [AllowAnonymous]
         // GET: MusicProducts
         public async Task<IActionResult> Index()
         {
-            return View(await _context.MusicProducts.ToListAsync());
+            var applicationDbContext = _context.MusicProducts.Include(p => p.Company).OrderBy(p => p.CompanyID);
+            return View("Index", await _context.MusicProducts.ToListAsync());
         }
         [AllowAnonymous]
         // GET: MusicProducts/Details/5
@@ -36,6 +38,7 @@ namespace AssignmentMusic.Controllers
             }
 
             var musicProducts = await _context.MusicProducts
+                .Include(p => p.Company)
                 .FirstOrDefaultAsync(m => m.ProductId == id);
             if (musicProducts == null)
             {
@@ -48,6 +51,7 @@ namespace AssignmentMusic.Controllers
         // GET: MusicProducts/Create
         public IActionResult Create()
         {
+            ViewData["CompanyID"] = new SelectList(_context.Company, "CompanyID", "CompanyName");
             return View();
         }
 
@@ -64,6 +68,7 @@ namespace AssignmentMusic.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CompanyID"] = new SelectList(_context.Company, "CompanyID", "CompanyName");
             return View(musicProducts);
         }
 
@@ -80,6 +85,7 @@ namespace AssignmentMusic.Controllers
             {
                 return NotFound();
             }
+            ViewData["CompanyID"] = new SelectList(_context.Company, "CompanyID", "CompanyName");
             return View(musicProducts);
         }
 
@@ -115,6 +121,7 @@ namespace AssignmentMusic.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CompanyID"] = new SelectList(_context.Company, "CompanyID", "CompanyName");
             return View(musicProducts);
         }
 

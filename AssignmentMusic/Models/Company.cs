@@ -21,6 +21,5 @@ namespace AssignmentMusic.Models
         public String WebSite { get; set; }
         public virtual ICollection<MusicProducts> ProductList { get; set; }
         public DateTime LastUpdate { get; set; }
-            
     }
 }

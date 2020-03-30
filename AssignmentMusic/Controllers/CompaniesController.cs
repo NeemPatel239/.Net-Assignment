@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using AssignmentMusic.Data;
 using AssignmentMusic.Models;
 using Microsoft.AspNetCore.Authorization;
+using System.Web.Http.Results;
 
 namespace AssignmentMusic.Controllers
 {
@@ -20,6 +21,7 @@ namespace AssignmentMusic.Controllers
         {
             _context = context;
         }
+
         [AllowAnonymous]
         // GET: Companies
         public async Task<IActionResult> Index()
