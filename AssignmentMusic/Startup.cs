@@ -14,6 +14,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
+using AssignmentMusic.Models;
 
 namespace AssignmentMusic
 {
@@ -51,6 +52,11 @@ namespace AssignmentMusic
                     options.ClientId = "211083952449-nphlvoandc9b6fe5s0vjm9qdn9pddpiq.apps.googleusercontent.com";
                     options.ClientSecret = "jZasDVUvPY2z4hqDlGFCDR11";
                 });
+
+
+            services.AddDbContext<ToDoContext>(opt =>
+            opt.UseInMemoryDatabase("ToDoList"));
+            services.AddControllers();
 
             
         }
